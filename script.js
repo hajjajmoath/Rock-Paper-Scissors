@@ -5,9 +5,16 @@ const paperBtn = document.getElementById('paper-btn');
 const scissorsBtn = document.getElementById('scissors-btn');
 const resultOutput = document.getElementById('result');
 
+
+let playerName = prompt('What is your Name?');
+player.textContent = capitalizeFirstLetter(playerName);
 let playerScoreCounter = 0;
 let computerScoreCounter = 0;
 const maxScore = 5;
+
+function capitalizeFirstLetter(str) {
+  return str.charAt(0).toUpperCase() + str.slice(1);
+}
 
 function getComputerChoice() {
   const options = ['rock', 'paper', 'scissors'];
@@ -41,7 +48,7 @@ scissorsBtn.addEventListener('click', () => playround('scissors', getComputerCho
 
 function getwinner() {
   if (playerScoreCounter === 5) {
-    resultOutput.textContent = 'Finished! the winner is Player';
+    resultOutput.textContent = `Finished! the winner is ${capitalizeFirstLetter(playerName)}`;
     disableButtons();
   }
   else if (computerScoreCounter === 5) {
