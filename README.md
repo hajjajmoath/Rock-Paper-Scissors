@@ -1,6 +1,6 @@
 # Rock Paper Scissors Game
 
-This is a simple Rock Paper Scissors Game with UI elements such as buttons to interact with.
+This is a simple Rock Paper Scissors game implemented in JavaScript. The game can be played by clicking on the buttons to choose between rock, paper, and scissors. The computer will randomly select one of these options as well. The winner is determined by the classic game rules: rock beats scissors, paper beats rock, and scissors beat paper.
 
 ## Getting Started
 
