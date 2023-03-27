@@ -24,7 +24,7 @@ This project does not require any dependencies or installation.
 
 ## Authors
 
-* **[Moath Hajaj](https://github.com/hajjajmoath)** - *Initial work* - [live version](https://hajjajmoath.github.io/rock-paper-scissors)
+* **[Moath Hajaj](https://github.com/hajjajmoath)** - *Initial work* - [Live version](https://hajjajmoath.github.io/rock-paper-scissors)
 
 ## Acknowledgments
 
