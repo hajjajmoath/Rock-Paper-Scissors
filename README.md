@@ -1,20 +1,32 @@
-Rock Paper Scissors Game
-This is a simple Rock Paper Scissors game with UI elements built using HTML, CSS, and JavaScript. It allows users to play against the computer and keeps track of the score for each player.
+# Rock Paper Scissors Game
 
-Getting Started
-To play the game, simply open the index.html file in your preferred internet browser, such as Google Chrome, Mozilla Firefox, or Microsoft Edge.
+This is a simple Rock Paper Scissors game implemented in JavaScript. The game can be played by clicking on the buttons to choose between rock, paper, and scissors. The computer will randomly select one of these options as well. The winner is determined by the classic game rules: rock beats scissors, paper beats rock, and scissors beat paper.
 
-How to Play
-Choose one of the three buttons to make your selection.
-Play your turn and wait for the result to display.
-Keep playing until either you or the computer has reached 5 points.
-The winner will be displayed at the end of the game.
-Features
-Play against the computer
-Keep track of the score for each player
-Display the winner at the end of the game
-Authors
-Moath Hajaj - Initial work - GitHub
-Acknowledgments
-RPS Icon taken from Icons8
-Inspiration from The Odin Project
+## Getting Started
+
+These instructions will get you a copy of the project up and running on your local machine for testing purposes.
+
+### Prerequisites
+
+This project requires an internet browser such as Google Chrome, Mozilla Firefox, or Microsoft Edge.
+
+### Installing
+
+This project does not require any dependencies or installation.
+
+## How to Play
+
+1. Enter your name when prompted.
+2. Choose one of the three buttons to make your selection.
+3. Play your turn and wait for the result to display.
+4. Keep playing until 1 player has reached 5 points.
+5. A winner will be selected.
+
+## Authors
+
+* **[Moath Hajaj](https://github.com/hajjajmoath)** - *Initial work* - [Live version](https://hajjajmoath.github.io/rock-paper-scissors)
+
+## Acknowledgments
+
+* RPS Icon taken from [Icons8](https://icons8.com/icons/set/rock-paper-scissors)
+* Inspiration from [The Odin Project](https://www.theodinproject.com/)
